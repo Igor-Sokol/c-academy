@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CompilerInfo.cpp" />
+    <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="SystemInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CompilerInfo.h" />
+    <ClInclude Include="Factorial.h" />
+    <ClInclude Include="SystemInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
