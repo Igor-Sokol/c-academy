@@ -1,6 +1,14 @@
 ﻿#include <iostream>
+#include "MultiplicationTable.h"
+#include "Game.h"
 
 int main()
 {
-    std::cout << "Hello World!";
+    setlocale(LC_ALL, "RU");
+
+    PrintMultiplicationTableFor();
+    PrintMultiplicationTableWhile();
+    PrintMultiplicationTableDoWhile();
+
+    Play();
 }
