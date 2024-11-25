@@ -1,6 +1,9 @@
 ﻿#include <iostream>
+#include "Shapes.h"
 
 int main()
 {
-    std::cout << "Hello World!";
+	Shapes::Shape shape = Shapes::GetShape("circle");
+
+	PrintShape(shape);
 }
