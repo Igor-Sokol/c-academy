@@ -128,6 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Reverse.cpp" />
+    <ClCompile Include="UniquePointer.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Reverse.h" />
+    <ClInclude Include="UniquePointer.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
