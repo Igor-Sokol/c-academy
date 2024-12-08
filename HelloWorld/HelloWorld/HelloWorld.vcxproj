@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="OverloadFunction.cpp" />
+    <ClCompile Include="SharedPtr.cpp" />
+    <ClCompile Include="UniquePtr .cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OverloadFunction.h" />
+    <ClInclude Include="SharedPtr.h" />
+    <ClInclude Include="UniquePtr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
